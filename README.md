@@ -74,6 +74,32 @@ CREATE TABLE Salary (
   department VARCHAR(255),
 );
 ```
+Sample Queries:
+
+1. Calculate total salary expenditure:
+
+SELECT SUM(Salary_Amount) FROM Salaries;
+
+1. Determine average salary by department:
+
+
+```SELECT Department, AVG(Salary_Amount) 
+FROM Positions 
+JOIN Salaries ON Positions.PositionID = Salaries.EmployeeID 
+GROUP BY Department;
+```
+
+1. Find employees from a specific state:
+   
+```
+SELECT * 
+FROM Employees 
+JOIN Employee_State ON Employees.EmployeeID = Employee_State.EmployeeID 
+JOIN States ON Employee_State.StateID = States.StateID 
+WHERE States.State_Name = 'New York';
+```
+
+
 
 
 
