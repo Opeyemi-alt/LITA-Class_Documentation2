@@ -99,7 +99,9 @@ JOIN States ON Employee_State.StateID = States.StateID
 WHERE States.State_Name = 'New York';
 ```
 
+### Data Visualization
 
+![WhatsApp Image 2024-10-29 at 15 20 59_e81b35e8](https://github.com/user-attachments/assets/36bde8f1-4ab3-4ed6-a3eb-e4525b272af3)
 
 
 
