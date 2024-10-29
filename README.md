@@ -5,7 +5,7 @@ This is where SQL projects are documented  while learning Data Analysis with the
 ---
 
 ### Project Title: Employee Database Management System and Salary Database
----
+
 ### Objective:
 
 Design and implement a database to manage employee information, including positions and state of origin, and salary data.
@@ -29,24 +29,25 @@ Design and implement a database to manage employee information, including positi
 3. Find employees from a specific state
 4. Identify employees with a specific job title
 5. Generate a report of employee count by state
----
-### Deliverables:
 
+### Deliverables:
+---
 1. SQL script to create database schema
 2. SQL queries to perform calculations and generate reports
 3. Sample data insertion script
 4. Written documentation of database design and queries
 
 ### Tools and Software:
-
+---
 - SQL Server Management Studio (SSMS)
 
 ### Assumptions and Limitations:
-
+---
 - Data accuracy and completeness- Consistent data formatting
 - No significant changes in business operations
 
 ### Learning Outcomes:
+---
 
 1. Design and implement a database
 2. Write efficient SQL queries
@@ -73,5 +74,6 @@ CREATE TABLE Salary (
   department VARCHAR(255),
 );
 ```
+
 
 
