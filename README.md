@@ -5,13 +5,13 @@ This is where SQL projects are documented  while learning Data Analysis with the
 ---
 
 ### Project Title: Employee Database Management System and Salary Database
-
+---
 ### Objective:
 
 Design and implement a database to manage employee information, including positions and state of origin, and salary data.
 
 ### Scope:
-
+---
 ### Database Design:
 
 1. Create tables for:
@@ -29,7 +29,7 @@ Design and implement a database to manage employee information, including positi
 3. Find employees from a specific state
 4. Identify employees with a specific job title
 5. Generate a report of employee count by state
-
+---
 ### Deliverables:
 
 1. SQL script to create database schema
